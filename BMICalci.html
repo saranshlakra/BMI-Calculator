@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+</head>
+
+<body>
+    <h1>Calculate your BMI( Body Mass Index ) by this calculator.</h1>
+    <h2>Press ctrl + shift + i than click on console to check your result</h2>
+    <script>
+        var height, weight;
+        height = prompt('What is your height in meters');
+        weight = prompt('what is your weight in kiligram');
+        bmi = weight / (height * height);
+        fixedBmi = bmi.toFixed(2);
+        console.log('Your BMI is: ' + fixedBmi);
+    </script>
+</body>
+
+</html>
